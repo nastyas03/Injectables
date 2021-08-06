@@ -1,0 +1,8 @@
+<ul>
+    <li *ngFor="let hero of heroes">
+    <app-hero-detail [hero]="heroes"></app-hero-detail>
+    <div>
+        {{hero.name}}
+    </div>
+    </li>
+</ul>

@@ -1,7 +1,10 @@
+import { SuperHeroesListComponent } from './Components/super-heroes-list/super-heroes-list.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path : 'home', component : SuperHeroesListComponent}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
